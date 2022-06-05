@@ -947,27 +947,25 @@ form label {
 #fh5co-counter .icon i:before {
   display: block;
   text-align: center;
-  margin-left: 3px;
+  margin-left: 9px;
 }
 
 .simply-countdown {
   /* The countdown */
-  margin-bottom: 2em;
+  margin-bottom: 8em;
 }
 
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
+  width: 50px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
-  margin: 0 4px;
+  margin: 0 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   position: relative;
-  animation: pulse 1s ease infinite;
 }
 
 @keyframes pulse {
