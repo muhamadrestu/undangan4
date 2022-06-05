@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Caveat&family=Raleway&family=Roboto+Slab&family=Square+Peg&display=swap");
 
-.masthead {
+section {
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -14,6 +14,7 @@
 
 .txt1 {
   text-align: center;
+  color: white;
   padding: 20px 0px 0px 0px;
   font-family: "Raleway", sans-serif;
   margin: 0px 0px -10px 0px;
@@ -21,6 +22,7 @@
 
 .txt2 {
   text-align: center;
+  color: white;
   font-family: "Square Peg", cursive;
   font-size: 60px;
   margin: 0px 0px 10px 0px;
@@ -28,16 +30,19 @@
 
 .txt3 {
   text-align: center;
+  color: white;
   font-family: "Raleway", sans-serif;
 }
 
 .txt4 {
   text-align: center;
+  color: white;
   font-family: "Roboto Slab", serif;
 }
 
 .txt5 {
   text-align: center;
+  color: white;
   font-family: "Raleway", sans-serif;
 }
 

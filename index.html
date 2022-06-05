@@ -59,16 +59,5 @@
       document.title = getParameterByName("untuk");
       document.querySelector("#untuk").innerHTML = getParameterByName("untuk");
     </script>
-
-    <script>
-      var src;
-      document.querySelector("button").onclick = function () {
-        src.postMessage("clicked", src.location.href);
-      };
-      window.onmessage = function (e) {
-        console.log(e.data);
-        src = e.source;
-      };
-    </script>
   </body>
 </html>

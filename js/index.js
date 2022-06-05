@@ -1,9 +1,7 @@
 var mySong = document.getElementById("mySong");
-var icon = document.getElementById("icon");
+var icon = document.getElementById("myNav");
 
-window.onload = function () {
-  document.getElementById("mySong").play();
-};
+var icon2 = document.getElementById("myNav");
 
 icon.onclick = function () {
   if (mySong.paused) {
@@ -11,6 +9,6 @@ icon.onclick = function () {
     icon.src = "/images/pause2.png";
   } else {
     mySong.pause();
-    icon.src = "/images/pause2.png";
+    icon.src = "/images/play2.png";
   }
 };
