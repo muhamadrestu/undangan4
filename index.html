@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 	<meta charset="utf-8">
@@ -9,19 +6,6 @@
 	<title>Undangan</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -108,8 +92,8 @@
 					<h4 class="txt4" id="untuk">Name here</h4>
 					<h6 class="txt5">Mohon maaf bila ada kesalahan penulisan nama/gelar</h6>
 				</div>
-				<div class="button text-center animate__animated animate__fadeInUp" id="tes1">
-					<a button class="btn btn-outline-light rounded-pill" onclick="closeNav()">Buka Undangan</a>
+				<div class="button2 text-center animate__animated animate__fadeInUp" id="tes1">
+					<a button class="btn btn-outline-light rounded-pill" onclick="closeNav(); togglePlay('play')">Buka Undangan</a>
 				</div>
 			</section>
 	</div>
@@ -120,7 +104,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 						<h2 id="home">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيمِ</h2>
-						<h3>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.</h3>
+						<h3>“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.” (QS. Ar-Rum 21)</h3>
 						<p></p>
 					</div>
 				</div>
@@ -246,8 +230,11 @@
 		</div>
 	</div>
 
-	<div class="myNav gototop js-top">
-		<img src="/images/pause2.png" class="button1" >
+	<div class="myNav button2 gototop js-top"  onclick="togglePlay('pause')" id="pause">
+		<img src="/images/pause2.png">
+	</div>
+	<div class="myNav button2 gototop js-top"  onclick="togglePlay('play')"  style="display:none" id="play">
+		<img src="/images/play2.png">
 	</div>
 
 	<audio id="mySong">

@@ -1,12 +1,28 @@
-var mySong = document.getElementById("mySong");
-var icon = document.getElementById("myNav");
-
-icon.onclick = function () {
-  if (mySong.paused) {
-    mySong.play();
-    icon.src = "/images/play2.png";
-  } else {
-    mySong.pause();
-    icon.src = "/images/pause2.png";
+function addEvent(obj, type, fn) {
+  if (obj.addEventListener) {
+    obj.addEventListener(type, fn, false);
+  } else if (obj.attachEvent) {
+    obj.attachEvent("on" + type, fn);
   }
-};
+}
+
+addEvent(document.getElementById("mySong"), "ended", function () {
+  document.getElementById("play").style.display = "block";
+  document.getElementById("pause").style.display = "none";
+});
+
+function togglePlay(state) {
+  var audio = document.getElementById("mySong"),
+    play = document.getElementById("play"),
+    pause = document.getElementById("pause");
+
+  if (state == "play") {
+    audio.play();
+    play.style.display = "none";
+    pause.style.display = "block";
+  } else {
+    audio.pause();
+    play.style.display = "block";
+    pause.style.display = "none";
+  }
+}
