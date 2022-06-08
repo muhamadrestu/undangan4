@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Tiro+Gurmukhi&family=Work+Sans:wght@300;400&display=swap");
 /* =======================================================
 *
 * 	Template Style 
@@ -1812,50 +1813,6 @@ form label {
   width: 99%;
 }
 
-.wrapper .form .input-group {
-  width: 100px;
-  height: 30px;
-  margin-bottom: 50px;
-}
-
-.wrapper .form .row2 .input-group input {
-  width: 1110px;
-  height: 50px;
-}
-
-.wrapper .form .input-group input,
-.wrapper .form .input-group textarea {
-  width: 1110px;
-  height: 100px;
-  border: 1px solid;
-  outline: none;
-  padding: 5px 10px;
-}
-
-.wrapper .form .input-group.textarea {
-  height: 200px;
-}
-
-.wrapper .form .input-group.textarea textarea {
-  resize: none;
-}
-
-@media screen and (max-width: 768px) {
-  .wrapper .form .input-group input,
-  .wrapper .form .input-group textarea {
-    width: 325px;
-    height: 100px;
-    border: 1px solid;
-    outline: none;
-    padding: 5px 10px;
-  }
-
-  .wrapper .form .row2 .input-group input {
-    width: 325px;
-    height: 50px;
-  }
-}
-
 #dialog {
   display: none;
   position: fixed;
@@ -1902,7 +1859,7 @@ form label {
 #close {
   position: relative;
 }
-
+/*Home Undangan*/
 .modl {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -1915,4 +1872,18 @@ form label {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
+
+button {
+  border: 0;
+  background: #f14e95;
+  border-radius: 10px;
+  padding: 13px;
+  width: 14%;
+  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-family: ubuntu;
+  letter-spacing: 1px;
+  color: white;
+}
+/*#
 /*# sourceMappingURL=style.css.map */
