@@ -1,6 +1,6 @@
 ---
 deployment:
-  tasks;
+  tasks:
     - export DEPLOYPATH=/home/u1654529/public.html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
