@@ -5,7 +5,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp * Audio $DEPLOYPATH
-    - /bin/cp -R * js $DEPLOYPATH
-    - /bin/cp -R * fonts $DEPLOYPATH
-    - /bin/cp -R * sass $DEPLOYPATH
+    - /bin/cp -R Audio $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R sass $DEPLOYPATH
